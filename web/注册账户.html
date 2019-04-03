@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="icon" href="image/纪雷.jpg">
+	<title>注册界面</title>
+	<style type="text/css">
+        /*p{
+            text-align: center;
+        }*/
+		fieldset {
+           margin: 0 auto;
+           float: none;/*居中*/
+           /*background-image: url("image/背景.jpg");*/
+           text-align: left;/*左对齐标签中的元素*/
+        }
+	</style>
+</head>
+<body background="image/背景2.jpg">
+<form action="标签集合统计.html" target="_bland" >
+	<fieldset style="width: 280px;height: 400px">
+		<legend align="center">注册界面</legend>
+		<p>
+		<label for="账号">账号:<input type="text" name="aa" id="usenmae">
+            <!-- label属性将文字关联到输入框 -->
+	</p>
+	<p>
+		<label for="密码">密码:<input type="text" name="bb" id="password">
+	</p>
+	<p>
+		性别:
+	<label><input type="radio" name="gender" checked="checked">保密</label>
+    <label><input type="radio" name="gender">男</label>
+    <label><input type="radio" name="gender">女</label>
+    <!-- radio单选框 --><!-- 文字关联选项框也能这么写 -->
+    </p>
+    <p>
+    	爱好:
+    	<label><input type="checkbox" checked="checked">篮球</label>
+    	<label><input type="checkbox" name="">足球</label>
+    	<label><input type="checkbox" name="">棒球</label>
+    	<!-- checkbox多选框 -->
+    </p>
+    <p>
+    	<label>简介:
+    	<textarea cols="30" rows="1"></textarea></label>
+        <!-- textarea属性标签定义一个侏儒框，cols和rows分别表示框的高和宽 -->
+    </p>
+    <p>
+    	生日:
+    	<input type="date" value="birthday"><!-- data属性可以选择日期 -->
+    	<!-- 提交到指定页面的数据都可以用value属性定义 -->
+    </p>
+    <p>
+    	<label>邮箱:
+    	<input type="email"></label><!-- 邮箱属性类型规定只能输入邮箱格式 -->
+    </p>
+    <p>
+    	<label>电话:
+    	<input type="number"></label><!-- number属性规定只能输入数字 -->
+    </p>
+    <p>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    	<input type="submit" value="注册">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    	<input type="reset" value="清空"><!-- 清空属性reset -->
+    </p>
+	</fieldset>
+	
+</form>
+
+
+
+
+</body>
+</html>
